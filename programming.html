@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Chapter 5: Programming Algorithms & Software Testing </title>
+</head>
+<style>
+    a:link { color: black;}
+    a:visited {color: rgb(249, 245, 4);}
+    a:hover {color: rgb(243, 31, 31);}
+    a:active {color: rgb(0, 105, 128);}
+    td { padding: 1%;}
+</style>
+<body style="background-image: url(wp-chp5.jpg);background-size:contain; font-family:Georgia, 'Times New Roman', Times, serif; margin:auto; margin-top: 3%">
+    <table border="3" style="background-color: gray; margin: auto; font-size: larger; width: 68%;">
+        <tr style="background-color: rgba(179, 177, 177);">
+            <td><a href="index.html">Home</a></td>
+            <td><a href="https://www.pvcc.edu">PVCC</a></td>
+            <td><a href="https://w3schools.com/html">W3 Schools</a></td>
+            <td><a href="contactus.html">Contact Us</a></td>
+        </tr>
+        <table border="3" style="background-color: rgba(189, 186, 186, 0.93); width: 68%; margin: auto;">
+            <tr style="background-color: rgba(9, 141, 4, 0.876); font-size: xx-large; text-align: center;">
+                <td colspan="2" style="padding-bottom: 25px; font-weight: bolder;">Chapter 5: Programming Algorithms & <br>Software Testing</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><b>Terms</b> and Definitions</td>
+            </tr>
+            <tr>
+                <td>Phases of Computer program development</td>
+                <td>
+                    <ul><b>Phase 1: </b> Understand the problem </ul>
+                    <ul><b>Phase 2: </b> Design an algorithm to solve the problem </ul>
+                    <ul><b>Phase 3: </b> Write the program code in appropriate language based on the algorithm. </ul>
+                    <ul><b>Phase 4: </b> Enter the program and save. </ul>
+                    <ul><b>Phase 5: </b> Execute the program. </ul>
+                    <ul><b>Phase 6: </b> Test the program, find errors and debug, then restart. </ul>
+                    <ul><b>Phase 7: </b> Document and evaluate the program. </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Programming Structures</td>
+                <td>
+                    <ul><b>Sequential structure: </b> Top-down execution </ul>
+                    <ul><b>Decision Sturctures: </b> if / then / else </ul>
+                    <ul><b>Iterative(Looping): </b></ul>
+                    <ul style="margin-left: 4em;"> <u>while loop:</u> continue looping as long something is true. </ul>
+                    <ul style="margin-left: 4em;"> <u>repeat/until loop:</u> continue looping until something is true. </ul>
+                    <ul style="margin-left: 4em;"> <u>for loop:</u> loop a given number of times.</ul>
+                    <ul><b>Recursive Sturctures: </b> Repeat a set of instructions as a subtask of itself. <br> Repetition continues until: degenerative case, which is a termination condition, is met (degenerative case is also called a "base case".)</ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Two classic programming/ database problems</td>
+                <td>
+                    <ul><b>Sorting: </b> </ul>
+                    <ul style="margin-left: 4em;"> Descending order / Ascending order </ul>
+                    <ul style="margin-left: 4em;"> Sorting Numbers</ul>
+                    <ul style="margin-left: 4em;"> Sorting strings (in accordance with ASCII values).</ul>
+                    <ul><b>ing: </b>find specific data that meet a certain criteria.</ul>
+                    <ul style="margin-left: 4em;"> In database: </ul>
+                    <ul style="margin-left: 6em;"> <u>Filters:</u> temporary search </ul>
+                    <ul style="margin-left: 6em;"> <u>Queries:</u> search criteria are saved so they don't have to be recreated.</ul>
+                    <ul><b>Two popular search techniques: </b></ul>
+                    <ul style="margin-left: 4em;"> <u>Sequential search:</u> search from top to bottom or bottom to top, one item at a time.</ul>
+                    <ul style="margin-left: 4em;"> <u>Binary search:</u> onlye works if data is SORTED first, start in the middle,then go to half of that, etc.</ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Two classic program goals</td>
+                <td>
+                    <ul><b>Efficiency: </b> Program takes minimal time and /or resouces.</ul>
+                    <ul><b>Correctness: </b> Program runs in expected ways and works for all expected conditions. </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Software testing and verification</td>
+                <td>
+                    <ul><b>Kinds of tests: </b> </ul>
+                    <ul style="margin-left: 4em;"> <u>Acceptance testing:</u> Verifying whether the whole system works as intended.</ul>
+                    <ul style="margin-left: 4em;"> <u>Integraion testing:</u> Ensuring that software components or functions operate together.  </ul>
+                    <ul style="margin-left: 4em;"> <u>Unit testing:</u> Validating that each software unit runs as expected. A unit is the smallest testable component of an application.  </ul>
+                    <ul style="margin-left: 4em;"> <u>Functional testing:</u> Checking functions by emulating business scenarios, based on functional requirements. Black-box testing is a common way to verify functions.  </ul>
+                    <ul style="margin-left: 4em;"> <u>Performance testing:</u> Testing how the software runs under different workloads. Load testing, for example, is used to evaluate performance under real-life load conditions.  </ul>
+                    <ul style="margin-left: 4em;"> <u>Regression testing:</u> Checking whether new features break or degrade functionality. Sanity testing can be used to verify menus, functions and commands at the surface level, when there is no time for a full regression test.  </ul>
+                    <ul style="margin-left: 4em;"> <u>Stress testing:</u> Testing how much strain the system can take before it fails. Stress testing is considered to be a type of non-functional testing.  </ul>
+                    <ul style="margin-left: 4em;"> <u>Usability testing:</u> Validating how well a customer can use a system or web application to complete a task.  </ul>
+                    <ul><b>Software testing is done to detect: </b> </ul>
+                    <ul style="margin-left: 4em;">  Architectural flaws </ul>
+                    <ul style="margin-left: 4em;">  Poor design decisions </ul>
+                    <ul style="margin-left: 4em;">  Invalid or incorrect functionality </ul>
+                    <ul style="margin-left: 4em;">  Security vulnerabilities</ul>
+                    <ul style="margin-left: 4em;">  Scalability issues</ul>
+                    <ul><b>Testing best practices: </b> </ul>
+                    <ul style="margin-left: 4em;">  <u>Continuous testing:</u> Teams working on a project utilize test automation integrated with the deployment process to test each build as it is released. </ul>
+                    <ul style="margin-left: 4em;">  <u>Configuration managment:</u> Organizations keep track of which software builds need testing. Teams also gain access to codes, requirments, design documents, models, test scripts and test results.  </ul>
+                    <ul style="margin-left: 4em;">  <u>Service virtualization:</u> simulates the services and systems that are missing or not yet completed, allowing teams to test sooner.   </ul>
+                    <ul style="margin-left: 4em;">  <u>Defect or "bug tracking":</u> Tools that are automated for teams to track defects, measure their scope and impact, and uncover issues. </ul>
+                    <ul style="margin-left: 4em;">  <u>Metrics and reporting:</u> enables teams to share status, goals and test results. </ul>
+                    <ul><b>From:</b> <a href="https://www.ibm.com/topics/software-testing">IBM What is software testing?</a></ul>
+            </tr>
+        </table>
+    </table>
+</body>
+</html>
